@@ -17,7 +17,8 @@ public class Task1Test {
 
         WebDriver driver= new ChromeDriver();
         driver.navigate().to("https://duckduckgo.com/");
-        Assert.assertEquals(driver.getTitle(),"Google");
+        Assert.assertEquals(driver.getTitle(),"DuckDuckGo - Protection. Privacy. Peace of mind.");
         driver.quit();
     }
+
 }
