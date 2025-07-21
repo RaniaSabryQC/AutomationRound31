@@ -1,13 +1,14 @@
 package workshopTasks;
 
+import engine.Bot;
 import org.openqa.selenium.By;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.chrome.ChromeOptions;
 import org.testng.Assert;
+import org.testng.annotations.AfterMethod;
+import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
 public class Task2Test {
+    Bot bot;
 
     @Test
     public void testTask2() {
@@ -17,12 +18,19 @@ public class Task2Test {
 //       - Assert that the DuckDuckGo logo is displayed
 //       - Close Google Chrome
 
-       ChromeOptions option = new ChromeOptions();
-       option.addArguments("start-maximized");
-        WebDriver driver = new ChromeDriver(option);
-        driver.navigate().to("https://duckduckgo.com/");
+        String url="https://duckduckgo.com/";
+        bot.navigate(url);
         By logoLocator = By.xpath("//div[contains(@class,'Desktop')]//img");
-        Assert.assertTrue(driver.findElement(logoLocator).isDisplayed(), "DuckDuckGo logo is not displayed");
-        driver.quit();
+        Assert.assertTrue(bot.isDisplayed(logoLocator), "DuckDuckGo logo is not displayed");
+    }
+
+    @BeforeMethod
+    public void setUp() {
+        bot = new Bot();
+    }
+
+    @AfterMethod
+    public void tearDown() {
+        bot.quit();
     }
 }

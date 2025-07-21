@@ -1,11 +1,14 @@
 package workshopTasks;
 
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.chrome.ChromeDriver;
+import engine.Bot;
 import org.testng.Assert;
+import org.testng.annotations.AfterMethod;
+import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
 public class Task1Test {
+    Bot bot;
+
     @Test
     public void navigateToDuckduckgoAndCheckPageTitle() {
 //        Task 1: Open Google Chrome, navigate to [https://duckduckgo.com/], assert that the page title is [Google], and close Google Chrome.
@@ -15,12 +18,20 @@ public class Task1Test {
 //        -Assert that the page title is [Google]
 //        -Close Google Chrome
 
-        WebDriver driver= new ChromeDriver();
-        driver.navigate().to("https://duckduckgo.com/");
-        Assert.assertEquals(driver.getTitle(),"DuckDuckGo - Protection. Privacy. Peace of mind.");
-        driver.quit();
-
+        String url = "https://duckduckgo.com/";
+        bot.navigate(url);
+        Assert.assertEquals(bot.getTitle(), "DuckDuckGo - Protection. Privacy. Peace of mind.");
 
     }
 
+    @BeforeMethod
+    public void setUp() {
+        bot = new Bot();
+    }
+
+
+    @AfterMethod
+    public void tearDown() {
+        bot.quit();
+    }
 }
