@@ -19,7 +19,7 @@ jobs:
 
     steps:
     - name: Checkout Code
-      uses: actions/checkout@v4
+    - uses: actions/checkout@v4
 
     - name: setup chrome
     - uses: browser-actions/setup-chrome@v2
@@ -30,7 +30,7 @@ jobs:
     - run: chrome --version
       
     - name: Set up JDK 21
-      uses: actions/setup-java@v4
+    - uses: actions/setup-java@v4
       with:
         java-version: '21'
         distribution: 'temurin'
