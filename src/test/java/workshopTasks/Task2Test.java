@@ -1,14 +1,10 @@
 package workshopTasks;
 
-import engine.Bot;
 import org.openqa.selenium.By;
 import org.testng.Assert;
-import org.testng.annotations.AfterMethod;
-import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
-public class Task2Test {
-    Bot bot;
+public class Task2Test extends TestCase {
 
     @Test
     public void testTask2() {
@@ -24,13 +20,5 @@ public class Task2Test {
         Assert.assertTrue(bot.isDisplayed(logoLocator), "DuckDuckGo logo is not displayed");
     }
 
-    @BeforeMethod
-    public void setUp() {
-        bot = new Bot();
-    }
 
-    @AfterMethod
-    public void tearDown() {
-        bot.quit();
-    }
 }

@@ -1,13 +1,9 @@
 package workshopTasks;
 
-import engine.Bot;
 import org.testng.Assert;
-import org.testng.annotations.AfterMethod;
-import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
-public class Task1Test {
-    Bot bot;
+public class Task1Test extends TestCase {
 
     @Test
     public void navigateToDuckduckgoAndCheckPageTitle() {
@@ -22,16 +18,5 @@ public class Task1Test {
         bot.navigate(url);
         Assert.assertEquals(bot.getTitle(), "DuckDuckGo - Protection. Privacy. Peace of mind.");
 
-    }
-
-    @BeforeMethod
-    public void setUp() {
-        bot = new Bot();
-    }
-
-
-    @AfterMethod
-    public void tearDown() {
-        bot.quit();
     }
 }
