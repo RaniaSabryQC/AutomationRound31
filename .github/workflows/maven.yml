@@ -10,19 +10,22 @@ name: Java CI with Maven
 
 on:
   push:
-    branches:
-    - main
+    branches: [main]
+  pull_request:
+    branches: [main]
 
 jobs:
   build:
     runs-on: windows-latest
 
     permissions:
-      contents: read
-      issues: write
-      pull-requests: write
+      contents: write
+      actions: read
       packages: write
-      security-events: write
+      id-token: write
+      pull-requests: write
+      issues: write
+      deployments: write
       
 
     steps:
