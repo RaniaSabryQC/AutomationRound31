@@ -2,21 +2,21 @@ package workshopTasks;
 
 import org.testng.Assert;
 import org.testng.annotations.Test;
+import pages.DynamicHtml;
 
 public class Task1Test extends TestCase {
 
     @Test
     public void navigateToDuckduckgoAndCheckPageTitle() {
-//        Task 1: Open Google Chrome, navigate to [https://duckduckgo.com/], assert that the page title is [Google], and close Google Chrome.
+//        Task 1:
 //        Steps:
 //       - Open Google Chrome
 //       - Navigate to [https://duckduckgo.com/]
-//        -Assert that the page title is [Google]
+//        -Assert that the page title is [DuckDuckGo - Protection. Privacy. Peace of mind.]
 //        -Close Google Chrome
-
-        String url = "https://duckduckgo.com/";
-        bot.navigate(url);
-        Assert.assertEquals(bot.getTitle(), "DuckDuckGo - Protection. Privacy. Peace of mind.");
+        DynamicHtml dynamicHtml=new DynamicHtml(bot);
+        dynamicHtml.navigateToDuckDuckGo();
+        Assert.assertEquals(dynamicHtml.getTitleDuckDuckGo(), "DuckDuckGo - Protection. Privacy. Peace of mind.");
 
     }
 }

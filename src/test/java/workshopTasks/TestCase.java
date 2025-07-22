@@ -15,5 +15,6 @@ public abstract class TestCase {
     @AfterMethod
     public void tearDown() {
         bot.quit();
+        bot = null;
     }
 }

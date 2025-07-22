@@ -1,23 +1,22 @@
 package workshopTasks;
 
-import org.openqa.selenium.By;
 import org.testng.Assert;
 import org.testng.annotations.Test;
+import pages.DynamicHtml;
 
 public class Task2Test extends TestCase {
 
     @Test
-    public void testTask2() {
+    public void checkLogoIsDisplay() {
 //        Task 2:
 //       - Open Google Chrome
 //       - Navigate to [https://duckduckgo.com/]
 //       - Assert that the DuckDuckGo logo is displayed
 //       - Close Google Chrome
 
-        String url="https://duckduckgo.com/";
-        bot.navigate(url);
-        By logoLocator = By.xpath("//div[contains(@class,'Desktop')]//img");
-        Assert.assertTrue(bot.isDisplayed(logoLocator), "DuckDuckGo logo is not displayed");
+        DynamicHtml dynamicHtml=new DynamicHtml(bot);
+        dynamicHtml.navigateToDuckDuckGo();
+        Assert.assertTrue(dynamicHtml.isLogoDisplayed(), "DuckDuckGo logo is not displayed");
     }
 
 
