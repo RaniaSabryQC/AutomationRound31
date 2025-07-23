@@ -18,15 +18,19 @@ public class DynamicHtml {
     public void navigateToDuckDuckGo() {
         bot.navigate(url);
     }
+
     public String getTitleDuckDuckGo() {
-      return   bot.getTitle();
+        return bot.getTitle();
     }
+
     public boolean isLogoDisplayed() {
         return bot.isDisplayed(logoLocator);
     }
+
     public void sendKeysToSearchBox(String keys) {
         bot.sendKeys(searchBoxInput, keys);
     }
+
     public void clickSearchButton() {
         bot.click(searchButton);
     }

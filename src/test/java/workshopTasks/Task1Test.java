@@ -14,7 +14,7 @@ public class Task1Test extends TestCase {
 //       - Navigate to [https://duckduckgo.com/]
 //        -Assert that the page title is [DuckDuckGo - Protection. Privacy. Peace of mind.]
 //        -Close Google Chrome
-        DynamicHtml dynamicHtml=new DynamicHtml(bot);
+        DynamicHtml dynamicHtml = new DynamicHtml(bot);
         dynamicHtml.navigateToDuckDuckGo();
         Assert.assertEquals(dynamicHtml.getTitleDuckDuckGo(), "DuckDuckGo - Protection. Privacy. Peace of mind.");
 

@@ -14,7 +14,7 @@ public class Task2Test extends TestCase {
 //       - Assert that the DuckDuckGo logo is displayed
 //       - Close Google Chrome
 
-        DynamicHtml dynamicHtml=new DynamicHtml(bot);
+        DynamicHtml dynamicHtml = new DynamicHtml(bot);
         dynamicHtml.navigateToDuckDuckGo();
         Assert.assertTrue(dynamicHtml.isLogoDisplayed(), "DuckDuckGo logo is not displayed");
     }
