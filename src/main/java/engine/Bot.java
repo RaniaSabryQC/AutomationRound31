@@ -24,7 +24,6 @@ public class Bot {
 
     private WebDriver initializeDriver() {
         WebDriver driver;
-
         String driverName = System.getProperty("browser", "chrome").toLowerCase();
         switch (driverName) {
             case "safari" -> driver = new SafariDriver();
