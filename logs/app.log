@@ -1,0 +1,94 @@
+2025-07-24 21:56:24 INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\rania\AppData\Local\JetBrains\IdeaIC2025.1\temp-testng-customsuite.xml
+
+2025-07-24 21:56:47 INFO  pages.W3Schools - Country name for Ernst Handel: Austria
+2025-07-24 22:00:47 INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\rania\AppData\Local\JetBrains\IdeaIC2025.1\temp-testng-customsuite.xml
+
+2025-07-24 22:01:04 INFO  pages.W3Schools - Country name for Ernst Handel: Austria
+2025-07-24 22:09:47 INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\rania\AppData\Local\JetBrains\IdeaIC2025.1\temp-testng-customsuite.xml
+
+2025-07-24 22:09:58 INFO  pages.W3Schools - Country name for Ernst Handel: Austria
+2025-07-24 22:11:36 INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\rania\AppData\Local\JetBrains\IdeaIC2025.1\temp-testng-customsuite.xml
+
+2025-07-24 22:12:09 INFO  pages.W3Schools - Country name for Ernst Handel: Austria
+2025-07-24 22:13:07 INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\rania\AppData\Local\JetBrains\IdeaIC2025.1\temp-testng-customsuite.xml
+
+2025-07-24 22:14:29 INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\rania\AppData\Local\JetBrains\IdeaIC2025.1\temp-testng-customsuite.xml
+
+2025-07-24 22:15:12 INFO  pages.W3Schools - Country name for Ernst Handel: Austria
+2025-07-24 22:15:57 INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\rania\AppData\Local\JetBrains\IdeaIC2025.1\temp-testng-customsuite.xml
+
+2025-07-24 22:21:35 INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\rania\AppData\Local\JetBrains\IdeaIC2025.1\temp-testng-customsuite.xml
+
+2025-07-24 22:23:48 INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\rania\AppData\Local\JetBrains\IdeaIC2025.1\temp-testng-customsuite.xml
+
+2025-07-24 22:24:02 INFO  engine.Bot - Text from element By.xpath: //table[@id='customers']//td[contains(text(),'Ernst Handel')]/following-sibling::td[2]: Austria
+2025-07-24 22:30:13 INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\rania\AppData\Local\JetBrains\IdeaIC2025.1\temp-testng-customsuite.xml
+
+2025-07-24 22:30:14 INFO  engine.Bot - Navigating to: https://www.w3schools.com/html/html_tables.asp
+2025-07-24 22:30:54 INFO  engine.Bot - Text from element By.xpath: //table[@id='customers']//td[contains(text(),'Ernst Handel')]/following-sibling::td[2]: Austria
+2025-07-24 23:02:21 INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\rania\AppData\Local\JetBrains\IdeaIC2025.1\temp-testng-customsuite.xml
+
+2025-07-24 23:02:26 INFO  engine.Bot - Navigating to: https://www.w3schools.com/html/html_tables.asp
+2025-07-24 23:02:30 INFO  engine.Bot - Text from element By.xpath: //table[@id='customers']//td[contains(text(),'Ernst Handel')]/following-sibling::td[2]: Austria
+2025-07-25 03:12:46 INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\rania\AppData\Local\JetBrains\IdeaIC2025.1\temp-testng-customsuite.xml
+
+2025-07-25 03:15:36 INFO  engine.Bot - Navigating to: https://www.w3schools.com/html/html_tables.asp
+2025-07-25 03:18:10 INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\rania\AppData\Local\JetBrains\IdeaIC2025.1\temp-testng-customsuite.xml
+
+2025-07-25 03:18:14 INFO  engine.Bot - Navigating to: https://www.w3schools.com/html/html_tables.asp
+2025-07-25 03:18:45 INFO  engine.Bot - Text from element By.xpath: //table[@id='customers']//td[contains(text(),'Ernst Handel')]/following-sibling::td[2]: Austria
+2025-07-25 03:26:48 INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\rania\AppData\Local\JetBrains\IdeaIC2025.1\temp-testng-customsuite.xml
+
+2025-07-25 03:26:49 INFO  engine.Bot - Navigating to: https://www.w3schools.com/html/html_tables.asp
+2025-07-25 03:26:54 INFO  engine.Bot - Text from element By.xpath: //table[@id='customers']//td[contains(text(),'Ernst Handel')]/following-sibling::td[2]: Austria
+2025-07-25 03:26:54 INFO  pages.W3Schools - Country name for Ernst Handel: Austria
+2025-07-25 03:32:02 INFO  engine.Bot - Navigating to: https://duckduckgo.com/
+2025-07-25 03:32:05 INFO  engine.Bot - Getting page title
+2025-07-25 03:32:05 INFO  engine.Bot - Closing the browser
+2025-07-25 03:32:06 INFO  engine.Bot - Navigating to: https://duckduckgo.com/
+2025-07-25 03:32:08 INFO  engine.Bot - Closing the browser
+2025-07-25 03:32:09 INFO  engine.Bot - Navigating to: https://duckduckgo.com/
+2025-07-25 03:32:11 INFO  engine.Bot - Sending keys 'Selenium WebDriver' to element: By.xpath: //input[@aria-autocomplete='both']
+2025-07-25 03:32:12 INFO  engine.Bot - Clicking on element: By.xpath: //button[@type='submit' and @aria-label='Search']
+2025-07-25 03:32:12 INFO  engine.Bot - Getting link text from element: By.xpath: (//a[@data-testid='result-title-a'])[1]
+2025-07-25 03:32:15 INFO  engine.Bot - Closing the browser
+2025-07-25 03:32:16 INFO  engine.Bot - Navigating to: https://duckduckgo.com/
+2025-07-25 03:32:17 INFO  engine.Bot - Sending keys 'TestNg' to element: By.xpath: //input[@aria-autocomplete='both']
+2025-07-25 03:32:17 INFO  engine.Bot - Clicking on element: By.xpath: //button[@type='submit' and @aria-label='Search']
+2025-07-25 03:32:17 INFO  engine.Bot - Getting text from element: By.xpath: (//a[@data-testid='result-title-a'])[3]
+2025-07-25 03:32:19 INFO  engine.Bot - Closing the browser
+2025-07-25 03:32:20 INFO  engine.Bot - Navigating to: https://duckduckgo.com/
+2025-07-25 03:32:22 INFO  engine.Bot - Sending keys 'Cucumber IO' to element: By.xpath: //input[@aria-autocomplete='both']
+2025-07-25 03:32:23 INFO  engine.Bot - Clicking on element: By.xpath: //button[@type='submit' and @aria-label='Search']
+2025-07-25 03:32:23 INFO  engine.Bot - Getting link text from element: By.xpath: (//a[@data-testid='result-title-a'])[2]
+2025-07-25 03:32:25 INFO  engine.Bot - Closing the browser
+2025-07-25 03:32:26 INFO  engine.Bot - Navigating to: http://the-internet.herokuapp.com/checkboxes
+2025-07-25 03:32:30 INFO  engine.Bot - Clicking on element: By.xpath: //input[@type='checkbox'][1]
+2025-07-25 03:32:30 INFO  engine.Bot - Checking if element is selected: By.xpath: //input[@type='checkbox'][1]
+2025-07-25 03:32:30 INFO  engine.Bot - Checking if element is selected: By.xpath: //input[@type='checkbox'][2]
+2025-07-25 03:32:30 INFO  engine.Bot - Closing the browser
+2025-07-25 03:32:31 INFO  engine.Bot - Navigating to: https://www.w3schools.com/html/html_tables.asp
+2025-07-25 03:32:43 INFO  engine.Bot - Getting text from element: By.xpath: //table[@id='customers']//td[contains(text(),'Ernst Handel')]/following-sibling::td[2]
+2025-07-25 03:32:43 INFO  pages.W3Schools - Country name for Ernst Handel: Austria
+2025-07-25 03:32:43 INFO  engine.Bot - Closing the browser
+2025-07-25 03:33:54 INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\rania\AppData\Local\JetBrains\IdeaIC2025.1\temp-testng-customsuite.xml
+
+2025-07-25 03:33:55 INFO  engine.Bot - Navigating to: https://duckduckgo.com/
+2025-07-25 03:33:57 INFO  engine.Bot - Sending keys 'Cucumber IO' to element: By.xpath: //input[@aria-autocomplete='both']
+2025-07-25 03:33:57 INFO  engine.Bot - Clicking on element: By.xpath: //button[@type='submit' and @aria-label='Search']
+2025-07-25 03:33:57 INFO  engine.Bot - Closing the browser
