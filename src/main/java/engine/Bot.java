@@ -11,6 +11,7 @@ import org.openqa.selenium.support.ui.Wait;
 public class Bot {
     WebDriver driver;
     Wait<WebDriver> wait;
+    private static final org.slf4j.Logger log = org.slf4j.LoggerFactory.getLogger(Bot.class);
 
     public Bot() {
         // ChromeOptions option = new ChromeOptions();
@@ -34,8 +35,8 @@ public class Bot {
     }
 
     public void navigate(String url) {
+        log.info("Navigating to: {}", url);
         driver.navigate().to(url);
-        System.out.println("Navigating to: " + url);
     }
 
     public boolean isDisplayed(By locator) {
@@ -44,32 +45,39 @@ public class Bot {
     }
 
     public void sendKeys(By locator, String keys) {
+        log.info("Sending keys '{}' to element: {}", keys, locator);
         wait.until(d -> driver.findElement(locator)).sendKeys(keys);
-        System.out.println("Sending keys: " + keys + " to element: " + locator);
+
     }
 
     public void click(By locator) {
+        log.info("Clicking on element: {}", locator);
         wait.until(d -> driver.findElement(locator)).click();
-        System.out.println("Clicking on element: " + locator);
     }
 
     public String linkText(By locator) {
+        log.info("Getting link text from element: {}", locator);
         return wait.until(d -> driver.findElement(locator)).getAttribute("href");
     }
 
     public String getText(By locator) {
+        log.info("Getting text from element: {}", locator);
         return wait.until(d ->
                 driver.findElement(locator)).getText();
     }
 
     public String getTitle() {
+        log.info("Getting page title");
         return driver.getTitle();
     }
+
     public boolean isSelected(By locator) {
-       return wait.until(d -> driver.findElement(locator)).isSelected();
+        log.info("Checking if element is selected: {}", locator);
+        return wait.until(d -> driver.findElement(locator)).isSelected();
     }
 
     public void quit() {
+        log.info("Closing the browser");
         driver.quit();
     }
 }

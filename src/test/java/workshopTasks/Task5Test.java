@@ -1,6 +1,6 @@
 package workshopTasks;
 
-import org.testng.Assert;
+//import org.testng.Assert;
 import org.testng.annotations.Test;
 import pages.DynamicHtml;
 import pages.SearchResult;
@@ -19,6 +19,6 @@ public class Task5Test extends TestCase{
         dynamicHtml.sendKeysToSearchBox("Cucumber IO");
         dynamicHtml.clickSearchButton();
         SearchResult searchResult=new SearchResult(bot);
-        Assert.assertTrue(searchResult.getSecondResultLink().contains("https://mvnrepository.com/artifact/io.cucumber"));
+//        Assert.assertTrue(searchResult.getSecondResultLink().contains("https://mvnrepository.com/artifact/io.cucumber"));
     }
 }

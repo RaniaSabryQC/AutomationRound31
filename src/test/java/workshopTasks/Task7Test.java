@@ -4,6 +4,7 @@ import org.testng.Assert;
 import org.testng.annotations.Test;
 import pages.W3Schools;
 
+
 public class Task7Test extends TestCase{
 
     @Test
