@@ -46,7 +46,8 @@ public class Bot {
 
     public void sendKeys(By locator, String keys) {
         log.info("Sending keys '{}' to element: {}", keys, locator);
-        wait.until(d -> driver.findElement(locator)).sendKeys(keys);
+        wait.until(d ->
+                driver.findElement(locator)).sendKeys(keys);
 
     }
 
@@ -74,6 +75,13 @@ public class Bot {
     public boolean isSelected(By locator) {
         log.info("Checking if element is selected: {}", locator);
         return wait.until(d -> driver.findElement(locator)).isSelected();
+    }
+    public void dragAndDrop(By source, By target) {
+        log.info("Dragging element '{}' and dropping it on '{}'", source, target);
+        var sourceElement = wait.until(d -> driver.findElement(source));
+        var targetElement = wait.until(d -> driver.findElement(target));
+        var actions = new org.openqa.selenium.interactions.Actions(driver);
+        actions.dragAndDrop(sourceElement, targetElement).perform();
     }
 
     public void quit() {

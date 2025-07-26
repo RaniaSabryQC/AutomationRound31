@@ -1,5 +1,6 @@
 package workshopTasks;
 
+import Utils.JsonReader;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 import pages.DynamicHtml;
@@ -19,7 +20,9 @@ public class Task3Test extends TestCase {
         DynamicHtml dynamicHtml = new DynamicHtml(bot);
         SearchResult searchResult = new SearchResult(bot);
         dynamicHtml.navigateToDuckDuckGo();
-        dynamicHtml.sendKeysToSearchBox("Selenium WebDriver");
+        String searchTerm = JsonReader.getSearchTerm();
+        dynamicHtml.sendKeysToSearchBox(searchTerm);
+       // dynamicHtml.sendKeysToSearchBox("Selenium WebDriver");
         dynamicHtml.clickSearchButton();
         Assert.assertEquals(searchResult.getFirstResultLink(), "https://www.selenium.dev/documentation/webdriver/");
     }
