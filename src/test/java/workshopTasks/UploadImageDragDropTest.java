@@ -4,7 +4,7 @@ import org.testng.Assert;
 import org.testng.annotations.Test;
 import pages.DragDrop;
 
-public class Task9Test extends TestCase{
+public class UploadImageDragDropTest extends TestCase{
 
     @Test
     public void uploadImageDragDrop() {
@@ -15,9 +15,7 @@ public class Task9Test extends TestCase{
 //        Assert that the text has been changed to [Dropped!]
 //        Close Google Chrome
 
-        DragDrop dragDrop= new DragDrop(bot);
-        dragDrop.navigateToDragDropPage();
-        dragDrop.dragAndDrop();
+        DragDrop dragDrop= new DragDrop(bot).navigateToDragDropPage().dragAndDrop();
         Assert.assertEquals(dragDrop.getDroppedText(), "Dropped!", "Text after drag and drop is not as expected");
     }
 }

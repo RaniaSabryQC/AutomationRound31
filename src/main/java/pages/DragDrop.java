@@ -14,14 +14,16 @@ public class DragDrop {
         this.bot = bot;
     }
 
-    public void navigateToDragDropPage() {
+    public DragDrop navigateToDragDropPage() {
         bot.navigate(Url);
+        return this;
     }
 
-    public void dragAndDrop() {
+    public DragDrop dragAndDrop() {
         bot.isDisplayed(draggable);
         bot.isDisplayed(droppable);
         bot.dragAndDrop(draggable, droppable);
+        return this;
     }
     public String getDroppedText() {
         return bot.getText(droppedSucceed);

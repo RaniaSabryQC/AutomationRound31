@@ -14,13 +14,15 @@ public class UploadFile {
         this.bot = bot;
     }
 
-    public void navigateToUploadPage() {
+    public UploadFile navigateToUploadPage() {
         bot.navigate(Url);
+        return this;
     }
 
-    public void uploadFileFromPC(String filePath) {
+    public UploadFile uploadFileFromPC(String filePath) {
         bot.sendKeys(fileInput, filePath);
         bot.click(uploadButton);
+        return this;
     }
 
     public boolean isFileUploaded() {
