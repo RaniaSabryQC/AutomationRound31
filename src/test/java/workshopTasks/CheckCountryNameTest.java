@@ -5,7 +5,7 @@ import org.testng.annotations.Test;
 import pages.W3Schools;
 
 
-public class Task7Test extends TestCase{
+public class CheckCountryNameTest extends TestCase{
 
     @Test
     public void checkCountryNameOfCompany(){
@@ -15,8 +15,7 @@ public class Task7Test extends TestCase{
 //        Assert that the Country for the Company [Ernst Handel] is [Austria]
 //        Close Google Chrome
 
-        W3Schools w3SchoolsPage = new W3Schools(bot);
-        w3SchoolsPage.navigateToW3Schools();
-        Assert.assertEquals(w3SchoolsPage.getCountryNameForCompany(), "Austria", "Country name for Ernst Handel should be Austria");
+        String ActualResult = new W3Schools(bot).navigateToW3Schools().getCountryNameForCompany();
+        Assert.assertEquals(ActualResult, "Austria", "Country name for Ernst Handel should be Austria");
     }
 }

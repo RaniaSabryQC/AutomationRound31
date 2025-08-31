@@ -13,8 +13,9 @@ public class W3Schools {
         this.bot= bot;
     }
 
-    public void navigateToW3Schools() {
+    public W3Schools navigateToW3Schools() {
         bot.navigate(Url);
+        return this;
     }
     public String getCountryNameForCompany() {
         String companyName = bot.getText(companyNameLocator);

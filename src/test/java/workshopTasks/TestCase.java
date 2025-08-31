@@ -15,6 +15,7 @@ public abstract class TestCase {
     @AfterMethod
     public void tearDown() {
         bot.quit();
+        // to empty the reference
         bot = null;
     }
 }

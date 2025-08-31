@@ -4,7 +4,7 @@ import org.testng.Assert;
 import org.testng.annotations.Test;
 import pages.DynamicHtml;
 
-public class Task1Test extends TestCase {
+public class GetPageTitleTest extends TestCase {
 
     @Test
     public void navigateToDuckduckgoAndCheckPageTitle() {
@@ -14,9 +14,7 @@ public class Task1Test extends TestCase {
 //       - Navigate to [https://duckduckgo.com/]
 //        -Assert that the page title is [DuckDuckGo - Protection. Privacy. Peace of mind.]
 //        -Close Google Chrome
-        DynamicHtml dynamicHtml = new DynamicHtml(bot);
-        dynamicHtml.navigateToDuckDuckGo();
+        DynamicHtml dynamicHtml = new DynamicHtml(bot).navigateToDuckDuckGo();
         Assert.assertEquals(dynamicHtml.getTitleDuckDuckGo(), "DuckDuckGo - Protection. Privacy. Peace of mind.");
-
     }
 }

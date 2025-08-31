@@ -261,3 +261,328 @@
 2025-07-25 05:13:29 INFO  engine.Bot - Clicking on element: By.xpath: //button[@type='submit' and @aria-label='Search']
 2025-07-25 05:13:29 INFO  engine.Bot - Getting link text from element: By.xpath: (//a[@data-testid='result-title-a'])[1]
 2025-07-25 05:13:33 INFO  engine.Bot - Closing the browser
+2025-07-26 03:36:08 INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\rania\AppData\Local\JetBrains\IdeaIC2025.1\temp-testng-customsuite.xml
+
+2025-07-26 03:36:12 INFO  engine.Bot - Navigating to: https://duckduckgo.com/
+2025-07-26 03:36:13 INFO  engine.Bot - Sending keys 'Cucumber IO' to element: By.xpath: //input[@aria-autocomplete='both']
+2025-07-26 03:36:14 INFO  engine.Bot - Clicking on element: By.xpath: //button[@type='submit' and @aria-label='Search']
+2025-07-26 03:36:14 INFO  engine.Bot - Getting link text from element: By.xpath: (//a[@data-testid='result-title-a'])[2]
+2025-07-26 03:36:16 INFO  engine.Bot - Closing the browser
+2025-07-26 03:36:48 INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\rania\AppData\Local\JetBrains\IdeaIC2025.1\temp-testng-customsuite.xml
+
+2025-07-26 03:36:50 INFO  engine.Bot - Navigating to: https://duckduckgo.com/
+2025-07-26 03:36:51 INFO  engine.Bot - Sending keys 'Cucumber IO' to element: By.xpath: //input[@aria-autocomplete='both']
+2025-07-26 03:36:52 INFO  engine.Bot - Clicking on element: By.xpath: //button[@type='submit' and @aria-label='Search']
+2025-07-26 03:36:52 INFO  engine.Bot - Getting link text from element: By.xpath: (//a[@data-testid='result-title-a'])[2]
+2025-07-26 03:36:54 INFO  engine.Bot - Getting link text from element: By.xpath: (//a[@data-testid='result-title-a'])[2]
+2025-07-26 03:36:54 INFO  engine.Bot - Closing the browser
+2025-07-26 03:37:08 INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\rania\AppData\Local\JetBrains\IdeaIC2025.1\temp-testng-customsuite.xml
+
+2025-07-26 03:37:09 INFO  engine.Bot - Navigating to: https://duckduckgo.com/
+2025-07-26 03:37:11 INFO  engine.Bot - Sending keys 'Cucumber IO' to element: By.xpath: //input[@aria-autocomplete='both']
+2025-07-26 03:37:11 INFO  engine.Bot - Clicking on element: By.xpath: //button[@type='submit' and @aria-label='Search']
+2025-07-26 03:37:11 INFO  engine.Bot - Getting link text from element: By.xpath: (//a[@data-testid='result-title-a'])[2]
+2025-07-26 03:37:13 INFO  engine.Bot - Getting link text from element: By.xpath: (//a[@data-testid='result-title-a'])[2]
+2025-07-26 03:37:13 INFO  engine.Bot - Closing the browser
+2025-07-26 03:37:24 INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\rania\AppData\Local\JetBrains\IdeaIC2025.1\temp-testng-customsuite.xml
+
+2025-07-26 03:37:25 INFO  engine.Bot - Navigating to: https://duckduckgo.com/
+2025-07-26 03:37:26 INFO  engine.Bot - Sending keys 'Cucumber IO' to element: By.xpath: //input[@aria-autocomplete='both']
+2025-07-26 03:37:26 INFO  engine.Bot - Clicking on element: By.xpath: //button[@type='submit' and @aria-label='Search']
+2025-07-26 03:37:27 INFO  engine.Bot - Getting link text from element: By.xpath: (//a[@data-testid='result-title-a'])[2]
+2025-07-26 03:37:28 INFO  engine.Bot - Closing the browser
+2025-07-26 03:43:46 INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\rania\AppData\Local\JetBrains\IdeaIC2025.1\temp-testng-customsuite.xml
+
+2025-07-26 03:43:47 INFO  engine.Bot - Navigating to: https://duckduckgo.com/
+2025-07-26 03:43:48 INFO  engine.Bot - Sending keys 'Cucumber IO' to element: By.xpath: //input[@aria-autocomplete='both']
+2025-07-26 03:43:49 INFO  engine.Bot - Clicking on element: By.xpath: //button[@type='submit' and @aria-label='Search']
+2025-07-26 03:43:49 INFO  engine.Bot - Getting link text from element: By.xpath: (//a[@data-testid='result-title-a'])[2]
+2025-07-26 03:43:51 INFO  engine.Bot - Closing the browser
+2025-07-26 03:44:02 INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\rania\AppData\Local\JetBrains\IdeaIC2025.1\temp-testng-customsuite.xml
+
+2025-07-26 03:44:03 INFO  engine.Bot - Navigating to: https://duckduckgo.com/
+2025-07-26 03:44:04 INFO  engine.Bot - Sending keys 'Cucumber IO' to element: By.xpath: //input[@aria-autocomplete='both']
+2025-07-26 03:44:05 INFO  engine.Bot - Clicking on element: By.xpath: //button[@type='submit' and @aria-label='Search']
+2025-07-26 03:44:05 INFO  engine.Bot - Getting link text from element: By.xpath: (//a[@data-testid='result-title-a'])[2]
+2025-07-26 03:44:08 INFO  engine.Bot - Getting link text from element: By.xpath: (//a[@data-testid='result-title-a'])[2]
+2025-07-26 03:44:08 INFO  engine.Bot - Closing the browser
+2025-07-26 03:44:25 INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\rania\AppData\Local\JetBrains\IdeaIC2025.1\temp-testng-customsuite.xml
+
+2025-07-26 03:44:26 INFO  engine.Bot - Navigating to: https://duckduckgo.com/
+2025-07-26 03:44:28 INFO  engine.Bot - Sending keys 'Cucumber IO' to element: By.xpath: //input[@aria-autocomplete='both']
+2025-07-26 03:44:29 INFO  engine.Bot - Clicking on element: By.xpath: //button[@type='submit' and @aria-label='Search']
+2025-07-26 03:45:56 INFO  engine.Bot - Getting link text from element: By.xpath: (//a[@data-testid='result-title-a'])[2]
+2025-07-26 03:45:57 INFO  engine.Bot - Getting link text from element: By.xpath: (//a[@data-testid='result-title-a'])[2]
+2025-07-26 03:46:01 INFO  engine.Bot - Closing the browser
+2025-07-26 03:46:04 INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\rania\AppData\Local\JetBrains\IdeaIC2025.1\temp-testng-customsuite.xml
+
+2025-07-26 03:46:05 INFO  engine.Bot - Navigating to: https://duckduckgo.com/
+2025-07-26 03:46:07 INFO  engine.Bot - Sending keys 'Cucumber IO' to element: By.xpath: //input[@aria-autocomplete='both']
+2025-07-26 03:46:07 INFO  engine.Bot - Clicking on element: By.xpath: //button[@type='submit' and @aria-label='Search']
+2025-07-26 03:46:08 INFO  engine.Bot - Getting link text from element: By.xpath: (//a[@data-testid='result-title-a'])[2]
+2025-07-26 03:46:21 INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\rania\AppData\Local\JetBrains\IdeaIC2025.1\temp-testng-customsuite.xml
+
+2025-07-26 03:46:22 INFO  engine.Bot - Navigating to: https://duckduckgo.com/
+2025-07-26 03:46:28 INFO  engine.Bot - Sending keys 'Cucumber IO' to element: By.xpath: //input[@aria-autocomplete='both']
+2025-07-26 03:46:29 INFO  engine.Bot - Clicking on element: By.xpath: //button[@type='submit' and @aria-label='Search']
+2025-07-26 03:46:29 INFO  engine.Bot - Getting link text from element: By.xpath: (//a[@data-testid='result-title-a'])[2]
+2025-07-26 03:46:38 INFO  engine.Bot - Getting link text from element: By.xpath: (//a[@data-testid='result-title-a'])[2]
+2025-07-26 03:46:38 INFO  engine.Bot - Closing the browser
+2025-07-26 04:36:45 INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\rania\AppData\Local\JetBrains\IdeaIC2025.1\temp-testng-customsuite.xml
+
+2025-07-26 04:36:48 INFO  engine.Bot - Navigating to: https://duckduckgo.com/
+2025-07-26 04:36:50 INFO  engine.Bot - Sending keys 'Selenium WebDriver' to element: By.xpath: //input[@aria-autocomplete='both']
+2025-07-26 04:36:50 INFO  engine.Bot - Clicking on element: By.xpath: //button[@type='submit' and @aria-label='Search']
+2025-07-26 04:36:50 INFO  engine.Bot - Getting link text from element: By.xpath: (//a[@data-testid='result-title-a'])[1]
+2025-07-26 04:36:52 INFO  engine.Bot - Closing the browser
+2025-07-26 04:37:05 INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\rania\AppData\Local\JetBrains\IdeaIC2025.1\temp-testng-customsuite.xml
+
+2025-07-26 04:37:06 INFO  engine.Bot - Navigating to: https://duckduckgo.com/
+2025-07-26 04:37:07 INFO  engine.Bot - Sending keys 'TestNg' to element: By.xpath: //input[@aria-autocomplete='both']
+2025-07-26 04:37:08 INFO  engine.Bot - Clicking on element: By.xpath: //button[@type='submit' and @aria-label='Search']
+2025-07-26 04:37:08 INFO  engine.Bot - Getting text from element: By.xpath: (//a[@data-testid='result-title-a'])[3]
+2025-07-26 04:37:10 INFO  engine.Bot - Closing the browser
+2025-07-26 09:01:27 INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\rania\AppData\Local\JetBrains\IdeaIC2025.1\temp-testng-customsuite.xml
+
+2025-07-26 09:01:29 INFO  engine.Bot - Navigating to: https://duckduckgo.com/
+2025-07-26 09:01:30 INFO  engine.Bot - Sending keys 'TestNg' to element: By.xpath: //input[@aria-autocomplete='both']
+2025-07-26 09:01:31 INFO  engine.Bot - Clicking on element: By.xpath: //button[@type='submit' and @aria-label='Search']
+2025-07-26 09:01:31 INFO  engine.Bot - Getting text from element: By.xpath: (//a[@data-testid='result-title-a'])[3]
+2025-07-26 09:01:32 INFO  engine.Bot - Closing the browser
+2025-07-26 09:01:41 INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\rania\AppData\Local\JetBrains\IdeaIC2025.1\temp-testng-customsuite.xml
+
+2025-07-26 09:01:42 INFO  engine.Bot - Navigating to: https://duckduckgo.com/
+2025-07-26 09:01:43 INFO  engine.Bot - Sending keys 'Cucumber IO' to element: By.xpath: //input[@aria-autocomplete='both']
+2025-07-26 09:01:43 INFO  engine.Bot - Clicking on element: By.xpath: //button[@type='submit' and @aria-label='Search']
+2025-07-26 09:01:44 INFO  engine.Bot - Getting link text from element: By.xpath: (//a[@data-testid='result-title-a'])[2]
+2025-07-26 09:01:45 INFO  engine.Bot - Getting link text from element: By.xpath: (//a[@data-testid='result-title-a'])[2]
+2025-07-26 09:01:45 INFO  engine.Bot - Closing the browser
+2025-07-26 09:21:39 INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\rania\AppData\Local\JetBrains\IdeaIC2025.1\temp-testng-customsuite.xml
+
+2025-07-26 09:21:40 INFO  engine.Bot - Navigating to: https://duckduckgo.com/
+2025-07-26 09:21:41 INFO  engine.Bot - Sending keys 'Cucumber IO' to element: By.xpath: //input[@aria-autocomplete='both']
+2025-07-26 09:21:42 INFO  engine.Bot - Clicking on element: By.xpath: //button[@type='submit' and @aria-label='Search']
+2025-07-26 09:21:42 INFO  engine.Bot - Getting link text from element: By.xpath: (//a[@data-testid='result-title-a'])[2]
+2025-07-26 09:21:43 INFO  engine.Bot - Getting link text from element: By.xpath: (//a[@data-testid='result-title-a'])[2]
+2025-07-26 09:21:43 INFO  engine.Bot - Closing the browser
+2025-07-26 09:34:29 INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\rania\AppData\Local\JetBrains\IdeaIC2025.1\temp-testng-customsuite.xml
+
+2025-07-26 09:34:30 INFO  engine.Bot - Navigating to: https://duckduckgo.com/
+2025-07-26 09:34:31 INFO  engine.Bot - Sending keys 'TestNg' to element: By.xpath: //input[@aria-autocomplete='both']
+2025-07-26 09:34:31 INFO  engine.Bot - Clicking on element: By.xpath: //button[@type='submit' and @aria-label='Search']
+2025-07-26 09:34:32 INFO  engine.Bot - Getting text from element: By.xpath: (//a[@data-testid='result-title-a'])[3]
+2025-07-26 09:34:33 INFO  engine.Bot - Closing the browser
+2025-07-26 09:38:01 INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\rania\AppData\Local\JetBrains\IdeaIC2025.1\temp-testng-customsuite.xml
+
+2025-07-26 09:38:02 INFO  engine.Bot - Navigating to: https://duckduckgo.com/
+2025-07-26 09:38:03 INFO  engine.Bot - Sending keys 'Selenium WebDriver' to element: By.xpath: //input[@aria-autocomplete='both']
+2025-07-26 09:38:04 INFO  engine.Bot - Clicking on element: By.xpath: //button[@type='submit' and @aria-label='Search']
+2025-07-26 09:38:04 INFO  engine.Bot - Getting link text from element: By.xpath: (//a[@data-testid='result-title-a'])[1]
+2025-07-26 09:38:05 INFO  engine.Bot - Closing the browser
+2025-07-26 09:38:13 INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\rania\AppData\Local\JetBrains\IdeaIC2025.1\temp-testng-customsuite.xml
+
+2025-07-26 09:38:14 INFO  engine.Bot - Navigating to: https://duckduckgo.com/
+2025-07-26 09:38:15 INFO  engine.Bot - Sending keys 'TestNG' to element: By.xpath: //input[@aria-autocomplete='both']
+2025-07-26 09:38:15 INFO  engine.Bot - Clicking on element: By.xpath: //button[@type='submit' and @aria-label='Search']
+2025-07-26 09:38:16 INFO  engine.Bot - Getting text from element: By.xpath: (//a[@data-testid='result-title-a'])[3]
+2025-07-26 09:38:17 INFO  engine.Bot - Closing the browser
+2025-07-26 09:38:23 INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\rania\AppData\Local\JetBrains\IdeaIC2025.1\temp-testng-customsuite.xml
+
+2025-07-26 09:38:25 INFO  engine.Bot - Navigating to: https://duckduckgo.com/
+2025-07-26 09:38:25 INFO  engine.Bot - Sending keys 'Cucumber IO' to element: By.xpath: //input[@aria-autocomplete='both']
+2025-07-26 09:38:26 INFO  engine.Bot - Clicking on element: By.xpath: //button[@type='submit' and @aria-label='Search']
+2025-07-26 09:38:26 INFO  engine.Bot - Getting link text from element: By.xpath: (//a[@data-testid='result-title-a'])[2]
+2025-07-26 09:38:27 INFO  engine.Bot - Closing the browser
+2025-07-26 09:40:00 INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\rania\AppData\Local\JetBrains\IdeaIC2025.1\temp-testng-customsuite.xml
+
+2025-07-26 09:40:02 INFO  engine.Bot - Navigating to: https://duckduckgo.com/
+2025-07-26 09:40:03 INFO  engine.Bot - Sending keys 'Cucumber IO' to element: By.xpath: //input[@aria-autocomplete='both']
+2025-07-26 09:40:03 INFO  engine.Bot - Clicking on element: By.xpath: //button[@type='submit' and @aria-label='Search']
+2025-07-26 09:40:03 INFO  engine.Bot - Getting link text from element: By.xpath: (//a[@data-testid='result-title-a'])[2]
+2025-07-26 09:40:05 INFO  engine.Bot - Closing the browser
+2025-07-26 09:43:35 INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\rania\AppData\Local\JetBrains\IdeaIC2025.1\temp-testng-customsuite.xml
+
+2025-07-26 09:43:36 INFO  engine.Bot - Navigating to: https://duckduckgo.com/
+2025-07-26 09:43:37 INFO  engine.Bot - Sending keys 'Selenium WebDriver' to element: By.xpath: //input[@aria-autocomplete='both']
+2025-07-26 09:43:37 INFO  engine.Bot - Clicking on element: By.xpath: //button[@type='submit' and @aria-label='Search']
+2025-07-26 09:43:38 INFO  engine.Bot - Getting link text from element: By.xpath: (//a[@data-testid='result-title-a'])[1]
+2025-07-26 09:43:39 INFO  engine.Bot - Closing the browser
+2025-07-26 09:43:51 INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\rania\AppData\Local\JetBrains\IdeaIC2025.1\temp-testng-customsuite.xml
+
+2025-07-26 09:43:52 INFO  engine.Bot - Navigating to: https://duckduckgo.com/
+2025-07-26 09:43:53 INFO  engine.Bot - Sending keys 'Cucumber IO' to element: By.xpath: //input[@aria-autocomplete='both']
+2025-07-26 09:43:54 INFO  engine.Bot - Clicking on element: By.xpath: //button[@type='submit' and @aria-label='Search']
+2025-07-26 09:43:54 INFO  engine.Bot - Getting link text from element: By.xpath: (//a[@data-testid='result-title-a'])[2]
+2025-07-26 09:43:55 INFO  engine.Bot - Closing the browser
+2025-08-28 15:01:48 INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\rania\AppData\Local\JetBrains\IdeaIC2025.1\temp-testng-customsuite.xml
+
+2025-08-28 15:01:55 INFO  engine.Bot - Navigating to: https://duckduckgo.com/
+2025-08-28 15:01:59 INFO  engine.Bot - Getting page title
+2025-08-28 15:01:59 INFO  engine.Bot - Closing the browser
+2025-08-28 15:02:36 INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\rania\AppData\Local\JetBrains\IdeaIC2025.1\temp-testng-customsuite.xml
+
+2025-08-28 15:02:42 INFO  engine.Bot - Navigating to: https://duckduckgo.com/
+2025-08-28 15:02:49 INFO  engine.Bot - Getting page title
+2025-08-28 15:02:56 INFO  engine.Bot - Closing the browser
+2025-08-28 15:07:46 INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\rania\AppData\Local\JetBrains\IdeaIC2025.1\temp-testng-customsuite.xml
+
+2025-08-28 15:07:47 INFO  engine.Bot - Navigating to: https://duckduckgo.com/
+2025-08-28 15:07:49 INFO  engine.Bot - Getting page title
+2025-08-28 15:07:49 INFO  engine.Bot - Closing the browser
+2025-08-28 15:10:31 INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\rania\AppData\Local\JetBrains\IdeaIC2025.1\temp-testng-customsuite.xml
+
+2025-08-28 15:10:35 INFO  engine.Bot - Navigating to: https://duckduckgo.com/
+2025-08-28 15:10:36 INFO  engine.Bot - Getting page title
+2025-08-28 15:10:36 INFO  engine.Bot - Closing the browser
+2025-08-28 15:11:08 INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\rania\AppData\Local\JetBrains\IdeaIC2025.1\temp-testng-customsuite.xml
+
+2025-08-28 15:11:10 INFO  engine.Bot - Navigating to: https://duckduckgo.com/
+2025-08-28 15:11:11 INFO  engine.Bot - Getting page title
+2025-08-28 15:11:11 INFO  engine.Bot - Closing the browser
+2025-08-28 15:13:17 INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\rania\AppData\Local\JetBrains\IdeaIC2025.1\temp-testng-customsuite.xml
+
+2025-08-28 15:13:19 INFO  engine.Bot - Navigating to: https://duckduckgo.com/
+2025-08-28 15:13:21 INFO  engine.Bot - Getting page title
+2025-08-28 15:13:21 INFO  engine.Bot - Closing the browser
+2025-08-28 15:17:32 INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\rania\AppData\Local\JetBrains\IdeaIC2025.1\temp-testng-customsuite.xml
+
+2025-08-28 15:17:34 INFO  engine.Bot - Navigating to: https://duckduckgo.com/
+2025-08-28 15:17:35 INFO  engine.Bot - Getting page title
+2025-08-28 15:17:35 INFO  engine.Bot - Closing the browser
+2025-08-28 15:56:06 INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\rania\AppData\Local\JetBrains\IdeaIC2025.1\temp-testng-customsuite.xml
+
+2025-08-28 15:56:10 INFO  engine.Bot - Navigating to: https://duckduckgo.com/
+2025-08-28 15:56:11 INFO  engine.Bot - Getting page title
+2025-08-28 15:56:11 INFO  engine.Bot - Closing the browser
+2025-08-28 20:10:34 INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\rania\AppData\Local\JetBrains\IdeaIC2025.2\temp-testng-customsuite.xml
+
+2025-08-28 20:10:38 INFO  engine.Bot - Navigating to: https://duckduckgo.com/
+2025-08-28 20:10:40 INFO  engine.Bot - Sending keys 'TestNG' to element: By.xpath: //input[@aria-autocomplete='both']
+2025-08-28 20:10:40 INFO  engine.Bot - Getting text from element: By.xpath: (//a[@data-testid='result-title-a'])[3]
+2025-08-28 20:10:41 INFO  engine.Bot - Closing the browser
+2025-08-31 13:00:54 INFO  engine.Bot - Navigating to: https://duckduckgo.com/
+2025-08-31 13:00:55 INFO  engine.Bot - Getting page title
+2025-08-31 13:00:55 INFO  engine.Bot - Closing the browser
+2025-08-31 13:11:32 INFO  engine.Bot - Navigating to: https://duckduckgo.com/
+2025-08-31 13:11:33 INFO  engine.Bot - Getting page title
+2025-08-31 13:11:33 INFO  engine.Bot - Closing the browser
+2025-08-31 13:11:34 INFO  engine.Bot - Navigating to: https://duckduckgo.com/
+2025-08-31 13:11:36 INFO  engine.Bot - Closing the browser
+2025-08-31 13:11:37 INFO  engine.Bot - Navigating to: https://duckduckgo.com/
+2025-08-31 13:11:38 INFO  engine.Bot - Sending keys 'Selenium WebDriver' to element: By.xpath: //input[@aria-autocomplete='both']
+2025-08-31 13:11:39 INFO  engine.Bot - Getting link text from element: By.xpath: (//a[@data-testid='result-title-a'])[1]
+2025-08-31 13:12:09 INFO  engine.Bot - Navigating to: https://duckduckgo.com/
+2025-08-31 13:12:11 INFO  engine.Bot - Getting page title
+2025-08-31 13:12:11 INFO  engine.Bot - Closing the browser
+2025-08-31 13:12:16 INFO  engine.Bot - Navigating to: https://duckduckgo.com/
+2025-08-31 13:46:26 INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\rania\AppData\Local\JetBrains\IdeaIC2025.2\temp-testng-customsuite.xml
+
+2025-08-31 13:46:28 INFO  engine.Bot - Navigating to: https://duckduckgo.com/
+2025-08-31 13:46:29 INFO  engine.Bot - Getting page title
+2025-08-31 13:46:29 INFO  engine.Bot - Closing the browser
+2025-08-31 17:13:21 INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\rania\AppData\Local\JetBrains\IdeaIC2025.2\temp-testng-customsuite.xml
+
+2025-08-31 17:13:24 INFO  engine.Bot - Navigating to: https://duckduckgo.com/
+2025-08-31 17:13:25 INFO  engine.Bot - Sending keys 'Selenium WebDriver' to element: By.xpath: //input[@aria-autocomplete='both']
+2025-08-31 17:13:25 INFO  engine.Bot - Getting link text from element: By.xpath: (//a[@data-testid='result-title-a'])[1]
+2025-08-31 17:13:27 INFO  engine.Bot - Closing the browser
+2025-08-31 20:18:57 INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\rania\AppData\Local\JetBrains\IdeaIC2025.2\temp-testng-customsuite.xml
+
+2025-08-31 20:18:59 INFO  engine.Bot - Navigating to: https://duckduckgo.com/
+2025-08-31 20:19:01 INFO  engine.Bot - Sending keys 'Cucumber IO' to element: By.xpath: //input[@aria-autocomplete='both']
+2025-08-31 20:19:01 INFO  engine.Bot - Getting link text from element: By.xpath: (//a[@data-testid='result-title-a'])[2]
+2025-08-31 20:19:03 INFO  engine.Bot - Closing the browser
+2025-08-31 20:19:05 INFO  engine.Bot - Navigating to: https://duckduckgo.com/
+2025-08-31 20:19:06 INFO  engine.Bot - Sending keys 'Selenium WebDriver' to element: By.xpath: //input[@aria-autocomplete='both']
+2025-08-31 20:19:07 INFO  engine.Bot - Getting link text from element: By.xpath: (//a[@data-testid='result-title-a'])[1]
+2025-08-31 20:19:09 INFO  engine.Bot - Closing the browser
+2025-08-31 20:19:10 INFO  engine.Bot - Navigating to: https://duckduckgo.com/
+2025-08-31 20:19:11 INFO  engine.Bot - Sending keys 'TestNG' to element: By.xpath: //input[@aria-autocomplete='both']
+2025-08-31 20:19:12 INFO  engine.Bot - Getting text from element: By.xpath: (//a[@data-testid='result-title-a'])[3]
+2025-08-31 20:19:14 INFO  engine.Bot - Closing the browser
+2025-08-31 20:20:51 INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\rania\AppData\Local\JetBrains\IdeaIC2025.2\temp-testng-customsuite.xml
+
+2025-08-31 20:20:53 INFO  engine.Bot - Navigating to: https://duckduckgo.com/
+2025-08-31 20:20:53 INFO  engine.Bot - Sending keys 'Cucumber IO' to element: By.xpath: //input[@aria-autocomplete='both']
+2025-08-31 20:20:55 INFO  engine.Bot - Getting link text from element: By.xpath: (//a[@data-testid='result-title-a'])[2]
+2025-08-31 20:20:57 INFO  engine.Bot - Closing the browser
+2025-08-31 20:21:53 INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\rania\AppData\Local\JetBrains\IdeaIC2025.2\temp-testng-customsuite.xml
+
+2025-08-31 20:21:55 INFO  engine.Bot - Navigating to: https://duckduckgo.com/
+2025-08-31 20:21:56 INFO  engine.Bot - Sending keys 'Cucumber IO' to element: By.xpath: //input[@aria-autocomplete='both']
+2025-08-31 20:21:56 INFO  engine.Bot - Getting link text from element: By.xpath: (//a[@data-testid='result-title-a'])[2]
+2025-08-31 20:21:58 INFO  engine.Bot - Closing the browser
+2025-08-31 20:23:01 INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\rania\AppData\Local\JetBrains\IdeaIC2025.2\temp-testng-customsuite.xml
+
+2025-08-31 20:23:02 INFO  engine.Bot - Navigating to: https://duckduckgo.com/
+2025-08-31 20:23:02 INFO  engine.Bot - Sending keys 'Cucumber IO' to element: By.xpath: //input[@aria-autocomplete='both']
+2025-08-31 20:23:04 INFO  engine.Bot - Getting link text from element: By.xpath: (//a[@data-testid='result-title-a'])[2]
+2025-08-31 20:23:05 INFO  engine.Bot - Getting link text from element: By.xpath: (//a[@data-testid='result-title-a'])[2]
+2025-08-31 20:23:05 INFO  engine.Bot - Closing the browser
+2025-08-31 20:23:34 INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\rania\AppData\Local\JetBrains\IdeaIC2025.2\temp-testng-customsuite.xml
+
+2025-08-31 20:23:36 INFO  engine.Bot - Navigating to: https://duckduckgo.com/
+2025-08-31 20:23:37 INFO  engine.Bot - Sending keys 'Cucumber IO' to element: By.xpath: //input[@aria-autocomplete='both']
+2025-08-31 20:23:38 INFO  engine.Bot - Getting link text from element: By.xpath: (//a[@data-testid='result-title-a'])[2]
+2025-08-31 20:23:40 INFO  engine.Bot - Getting link text from element: By.xpath: (//a[@data-testid='result-title-a'])[2]
+2025-08-31 20:23:40 INFO  engine.Bot - Closing the browser
+2025-08-31 20:26:28 INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\rania\AppData\Local\JetBrains\IdeaIC2025.2\temp-testng-customsuite.xml
+
+2025-08-31 20:26:30 INFO  engine.Bot - Navigating to: https://duckduckgo.com/
+2025-08-31 20:26:32 INFO  engine.Bot - Sending keys 'Cucumber IO' to element: By.xpath: //input[@aria-autocomplete='both']
+2025-08-31 20:26:32 INFO  engine.Bot - Getting link text from element: By.xpath: (//a[@data-testid='result-title-a'])[2]
+2025-08-31 20:26:35 INFO  engine.Bot - Getting link text from element: By.xpath: (//a[@data-testid='result-title-a'])[2]
+2025-08-31 20:26:35 INFO  engine.Bot - Closing the browser
+2025-08-31 20:26:52 INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\rania\AppData\Local\JetBrains\IdeaIC2025.2\temp-testng-customsuite.xml
+
+2025-08-31 20:26:53 INFO  engine.Bot - Navigating to: https://duckduckgo.com/
+2025-08-31 20:26:55 INFO  engine.Bot - Sending keys 'Cucumber IO' to element: By.xpath: //input[@aria-autocomplete='both']
+2025-08-31 20:26:55 INFO  engine.Bot - Getting link text from element: By.xpath: (//a[@data-testid='result-title-a'])[2]
+2025-08-31 20:26:57 INFO  engine.Bot - Getting link text from element: By.xpath: (//a[@data-testid='result-title-a'])[2]
+2025-08-31 20:26:57 INFO  engine.Bot - Closing the browser
+2025-08-31 20:35:38 INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\rania\AppData\Local\JetBrains\IdeaIC2025.2\temp-testng-customsuite.xml
+
+2025-08-31 20:35:40 INFO  engine.Bot - Navigating to: https://www.w3schools.com/html/html_tables.asp
+2025-08-31 20:35:54 INFO  engine.Bot - Getting text from element: By.xpath: //table[@id='customers']//td[contains(text(),'Ernst Handel')]/following-sibling::td[2]
+2025-08-31 20:35:54 INFO  pages.W3Schools - Country name for Ernst Handel: Austria
+2025-08-31 20:35:54 INFO  engine.Bot - Closing the browser

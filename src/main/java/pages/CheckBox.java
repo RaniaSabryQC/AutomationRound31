@@ -12,11 +12,13 @@ public class CheckBox {
     public CheckBox(Bot bot){
         this.bot = bot;
     }
-    public void navigateToCheckboxesWebSite() {
+    public CheckBox navigateToCheckboxesWebSite() {
         bot.navigate(url);
+        return this;
     }
-    public void checkCheckbox1() {
+    public CheckBox checkCheckbox1() {
         bot.click(checkbox1Locator);
+        return this;
     }
     public boolean isCheckbox1Checked() {
        return bot.isSelected(checkbox1Locator);

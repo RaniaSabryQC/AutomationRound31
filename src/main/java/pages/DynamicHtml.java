@@ -8,15 +8,15 @@ public class DynamicHtml {
     String url = "https://duckduckgo.com/";
     By logoLocator = By.xpath("//div[contains(@class,'Desktop')]//img");
     By searchBoxInput = By.xpath("//input[@aria-autocomplete='both']");
-    By searchButton = By.xpath("//button[@type='submit' and @aria-label='Search']");
 
 
     public DynamicHtml(Bot bot) {
         this.bot = bot;
     }
 
-    public void navigateToDuckDuckGo() {
+    public DynamicHtml navigateToDuckDuckGo() {
         bot.navigate(url);
+        return this;
     }
 
     public String getTitleDuckDuckGo() {
@@ -27,11 +27,11 @@ public class DynamicHtml {
         return bot.isDisplayed(logoLocator);
     }
 
-    public void sendKeysToSearchBox(String keys) {
+
+    public DynamicHtml searchText(String keys) {
         bot.sendKeys(searchBoxInput, keys);
+        return this;
     }
 
-    public void clickSearchButton() {
-        bot.click(searchButton);
-    }
+
 }

@@ -1,27 +1,28 @@
 package engine;
 
-import org.openqa.selenium.By;
-import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.*;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.safari.SafariDriver;
 import org.openqa.selenium.support.ui.FluentWait;
 import org.openqa.selenium.support.ui.Wait;
 
+
 public class Bot {
     WebDriver driver;
     Wait<WebDriver> wait;
+
+
     private static final org.slf4j.Logger log = org.slf4j.LoggerFactory.getLogger(Bot.class);
 
     public Bot() {
-        // ChromeOptions option = new ChromeOptions();
-        //  option.addArguments("start-maximized");
         driver = initializeDriver();
         wait = new FluentWait<>(driver)
-                .withTimeout(java.time.Duration.ofSeconds(10))
-                .pollingEvery(java.time.Duration.ofMillis(500))
+                .withTimeout(java.time.Duration.ofSeconds(5))
+                .pollingEvery(java.time.Duration.ofMillis(300))
                 .ignoring(Exception.class);
     }
+
 
     private WebDriver initializeDriver() {
         WebDriver driver;
@@ -38,17 +39,18 @@ public class Bot {
         log.info("Navigating to: {}", url);
         driver.navigate().to(url);
     }
-
     public boolean isDisplayed(By locator) {
         return wait.until(d ->
                 driver.findElement(locator).isDisplayed());
     }
 
-    public void sendKeys(By locator, String keys) {
-        log.info("Sending keys '{}' to element: {}", keys, locator);
-        wait.until(d ->
-                driver.findElement(locator)).sendKeys(keys);
-
+    public void sendKeys(By locator, String searchText) {
+        log.info("Sending keys '{}' to element: {}", searchText, locator);
+        wait.until(d ->{
+                //driver.findElement(locator).clear();
+                driver.findElement(locator).sendKeys(searchText+ Keys.ENTER);
+                return true;
+        });
     }
 
     public void click(By locator) {
@@ -88,4 +90,6 @@ public class Bot {
         log.info("Closing the browser");
         driver.quit();
     }
+
+
 }

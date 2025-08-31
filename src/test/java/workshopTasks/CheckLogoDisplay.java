@@ -4,7 +4,7 @@ import org.testng.Assert;
 import org.testng.annotations.Test;
 import pages.DynamicHtml;
 
-public class Task2Test extends TestCase {
+public class CheckLogoDisplay extends TestCase {
 
     @Test
     public void checkLogoIsDisplay() {
@@ -14,8 +14,7 @@ public class Task2Test extends TestCase {
 //       - Assert that the DuckDuckGo logo is displayed
 //       - Close Google Chrome
 
-        DynamicHtml dynamicHtml = new DynamicHtml(bot);
-        dynamicHtml.navigateToDuckDuckGo();
+        DynamicHtml dynamicHtml = new DynamicHtml(bot).navigateToDuckDuckGo();
         Assert.assertTrue(dynamicHtml.isLogoDisplayed(), "DuckDuckGo logo is not displayed");
     }
 
