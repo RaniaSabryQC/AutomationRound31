@@ -1,8 +1,11 @@
 name: First WorkFlow
 on:
+  workflow_dispatch:
   push:
-    branches:
-    - main
+    branches: ["main"]
+  pull_request:
+    branches: ["main"]
+      
 jobs:
    example-job:
     runs-on: ubuntu-latest
