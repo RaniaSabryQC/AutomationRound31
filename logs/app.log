@@ -638,3 +638,35 @@
 2025-09-01 12:49:16 INFO  engine.Bot - Clicking on element: By.id: file-submit
 2025-09-01 12:49:17 INFO  engine.Bot - Getting text from element: By.xpath: //div[@class='example']/h3
 2025-09-01 12:49:17 INFO  engine.Bot - Closing the browser
+2025-09-01 12:52:36 INFO  engine.Bot - Navigating to: http://the-internet.herokuapp.com/checkboxes
+2025-09-01 12:52:38 INFO  engine.Bot - Clicking on element: By.xpath: //input[@type='checkbox'][1]
+2025-09-01 12:52:38 INFO  engine.Bot - Checking if element is selected: By.xpath: //input[@type='checkbox'][1]
+2025-09-01 12:52:38 INFO  engine.Bot - Checking if element is selected: By.xpath: //input[@type='checkbox'][2]
+2025-09-01 12:52:38 INFO  engine.Bot - Closing the browser
+2025-09-01 12:52:40 INFO  engine.Bot - Navigating to: https://www.w3schools.com/html/html_tables.asp
+2025-09-01 12:53:08 INFO  engine.Bot - Getting text from element: By.xpath: //table[@id='customers']//td[contains(text(),'Ernst Handel')]/following-sibling::td[2]
+2025-09-01 12:53:08 INFO  pages.W3Schools - Country name for Ernst Handel: Austria
+2025-09-01 12:53:08 INFO  engine.Bot - Closing the browser
+2025-09-01 12:53:10 INFO  engine.Bot - Navigating to: https://duckduckgo.com/
+2025-09-01 12:53:11 INFO  engine.Bot - Getting page title
+2025-09-01 12:53:11 INFO  engine.Bot - Closing the browser
+2025-09-01 12:53:12 INFO  engine.Bot - Navigating to: https://duckduckgo.com/
+2025-09-01 12:53:13 INFO  engine.Bot - Sending keys 'Cucumber IO' to element: By.xpath: //input[@aria-autocomplete='both']
+2025-09-01 12:53:14 INFO  engine.Bot - Getting link text from element: By.xpath: (//a[@data-testid='result-title-a'])[2]
+2025-09-01 12:53:15 INFO  engine.Bot - Closing the browser
+2025-09-01 12:53:17 INFO  engine.Bot - Navigating to: https://duckduckgo.com/
+2025-09-01 12:53:18 INFO  engine.Bot - Sending keys 'Selenium WebDriver' to element: By.xpath: //input[@aria-autocomplete='both']
+2025-09-01 12:53:18 INFO  engine.Bot - Getting link text from element: By.xpath: (//a[@data-testid='result-title-a'])[1]
+2025-09-01 12:53:19 INFO  engine.Bot - Closing the browser
+2025-09-01 12:53:21 INFO  engine.Bot - Navigating to: https://duckduckgo.com/
+2025-09-01 12:53:22 INFO  engine.Bot - Sending keys 'TestNG' to element: By.xpath: //input[@aria-autocomplete='both']
+2025-09-01 12:53:22 INFO  engine.Bot - Getting text from element: By.xpath: (//a[@data-testid='result-title-a'])[3]
+2025-09-01 12:53:24 INFO  engine.Bot - Closing the browser
+2025-09-01 12:53:25 INFO  engine.Bot - Navigating to: https://the-internet.herokuapp.com/upload
+2025-09-01 12:53:27 INFO  engine.Bot - Clicking on element: By.id: file-submit
+2025-09-01 12:53:28 INFO  engine.Bot - Getting text from element: By.xpath: //div[@class='example']/h3
+2025-09-01 12:53:28 INFO  engine.Bot - Closing the browser
+2025-09-01 12:53:29 INFO  engine.Bot - Navigating to: https://jqueryui.com/resources/demos/droppable/default.html
+2025-09-01 12:53:30 INFO  engine.Bot - Dragging element 'By.id: draggable' and dropping it on 'By.id: droppable'
+2025-09-01 12:53:31 INFO  engine.Bot - Getting text from element: By.xpath: //div[@id='droppable']/p
+2025-09-01 12:53:31 INFO  engine.Bot - Closing the browser
