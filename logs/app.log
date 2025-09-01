@@ -625,3 +625,16 @@
 2025-08-31 20:51:58 INFO  engine.Bot - Navigating to: https://the-internet.herokuapp.com/upload
 2025-08-31 20:52:01 INFO  engine.Bot - Sending keys 'C:\Users\rania\OneDrive\Documents\GitHub\AutomationRound31/src/test/resources/images/smallImage.jpg' to element: By.id: file-upload
 2025-08-31 20:52:07 INFO  engine.Bot - Closing the browser
+2025-09-01 12:45:09 INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\Rania\AppData\Local\JetBrains\IdeaIC2025.2\temp-testng-customsuite.xml
+
+2025-09-01 12:45:12 INFO  engine.Bot - Navigating to: https://the-internet.herokuapp.com/upload
+2025-09-01 12:45:15 INFO  engine.Bot - Sending keys 'C:\Users\Rania\Automation Projects\AutomationRound31/src/test/resources/images/smallImage.jpg' to element: By.id: file-upload
+2025-09-01 12:45:20 INFO  engine.Bot - Closing the browser
+2025-09-01 12:49:12 INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\Rania\AppData\Local\JetBrains\IdeaIC2025.2\temp-testng-customsuite.xml
+
+2025-09-01 12:49:14 INFO  engine.Bot - Navigating to: https://the-internet.herokuapp.com/upload
+2025-09-01 12:49:16 INFO  engine.Bot - Clicking on element: By.id: file-submit
+2025-09-01 12:49:17 INFO  engine.Bot - Getting text from element: By.xpath: //div[@class='example']/h3
+2025-09-01 12:49:17 INFO  engine.Bot - Closing the browser

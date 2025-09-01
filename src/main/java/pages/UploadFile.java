@@ -20,7 +20,7 @@ public class UploadFile {
     }
 
     public UploadFile uploadFileFromPC(String filePath) {
-        bot.sendKeys(fileInput, filePath);
+        bot.uploadFileBySendKey(fileInput, filePath);
         bot.click(uploadButton);
         return this;
     }

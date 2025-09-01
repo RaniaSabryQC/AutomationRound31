@@ -53,6 +53,15 @@ public class Bot {
         });
     }
 
+    public void uploadFileBySendKey(By locator, String searchText) {
+       // log.info("Sending keys '{}' to element: {}", searchText, locator);
+        wait.until(d ->{
+            //driver.findElement(locator).clear();
+            driver.findElement(locator).sendKeys(searchText);
+            return true;
+        });
+    }
+
     public void click(By locator) {
         log.info("Clicking on element: {}", locator);
         wait.until(d -> driver.findElement(locator)).click();
