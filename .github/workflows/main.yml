@@ -1,19 +1,14 @@
 name: First WorkFlow
-
-
 on:
   push:
     branches:
     - main
-
 jobs:
    example-job:
     runs-on: ubuntu-latest
-
     steps:
      - name: print welcome message
        run: echo  "Welcome message for first workflow"
-
      - name: checkout repristory
        uses: actions/checkout@v4.2.2
      
