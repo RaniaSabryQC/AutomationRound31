@@ -1,16 +1,7 @@
 package workshopTasks;
 
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
-import org.openqa.selenium.By;
-import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.chrome.ChromeOptions;
-import org.openqa.selenium.support.ui.Select;
-import org.openqa.selenium.support.ui.WebDriverWait;
-import org.openqa.selenium.support.ui.ExpectedConditions;
-import java.time.Duration;
 //
-   public class SeleniumFormAutomation {
+   public class AutomationWithMCP {
 //
 //        private static WebDriver driver;
 //        private static WebDriverWait wait;
